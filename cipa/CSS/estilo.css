@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../Imagem/cipa.jpg");
+    opacity: 0,4;
+    background-repeat:no-repeat;
+    background-position: 50% 80%;
+/*    font-family: Arial, Helvetica, sans-serif;*/
+}
+
+input{
+    display: block;
+    background-color:rgb(107, 255, 181);;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px rgb(107, 255, 181);;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16pt;
+    box-sizing: border-box;
+    outline: none;
+}
+placeholder{
+    color: white;
+}
+
+div#corpo-form{
+    width: 420px;    /*largura do formulario na tela*/
+    margin: 130px auto 0px auto;   /*centralizar na tela*/
+    position: absolute;
+
+}
+
+div#corpo-form-cad{
+    width: 420px;    /*largura do formulario na tela*/
+    margin: 100px auto 0px auto;   /*centralizar na tela*/
+    color: white;
+
+}
+div#corpo-form h1{ /*corpo do formulario*/
+    text-align: center; /*centralizar texto do formulario*/
+    color: rgb(34, 80, 28);
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+div#corpo-form-cad h1{ /*corpo do formulario*/
+    text-align: center; /*centralizar texto do formulario*/
+    color: rgba(34, 80, 28);
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+a{
+    color:rgb(5, 74, 3);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+a :hover{
+    text-decoration: underline rgb(5, 74, 3);
+}
+
+b{
+    color:red;
+    text-decoration: none;
+    display: block;
+    text-align:end;
+    
+}
+b :hover{
+    text-decoration: underline red;
+}
+
+input[type=submit]{
+    background-color: rgb(34, 80, 28);
+    color: rgb(255, 255, 255);;
+    outline-color: white;
+    cursor: pointer;
+    border: none;
+}
+div#msg-Sucesso{
+    width:400 px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: green;
+    border:1px green;
+}
+
+div#msg-Erro{
+    width:400 px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: red;
+    border:1px red;
+}
